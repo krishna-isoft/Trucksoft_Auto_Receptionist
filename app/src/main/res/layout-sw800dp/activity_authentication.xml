@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgk" >
+
+    <LinearLayout
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/lay_heightt"
+            android:layout_weight="1"
+            android:src="@drawable/apprc" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/drive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:padding="@dimen/min_padding"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:text="i-Soft Sign-IN"
+        android:textColorHint="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/safty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drive"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="Safety First"
+        android:textColorHint="#c2c2c2"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/login_screen_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/safty"
+        android:layout_marginTop="@dimen/lay_height"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edt_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/edittext_base"
+            android:gravity="center"
+            android:hint="Enter your company code"
+            android:padding="@dimen/medium_padding"
+            android:text=""
+            android:singleLine="true"
+            android:textColorHint="#c2c2c2" />
+
+       <!-- <Button
+            android:id="@+id/login_bt_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/submit_button_base"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Submit"
+            android:textColor="#000"
+            android:textColorHint="#c2c2c2" />-->
+        <Button
+            android:id="@+id/login_bt_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/abcorner"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textColorHint="#c2c2c2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/rz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+
+android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="160px"
+            android:src="@drawable/nlogo"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="SOFTWARE - MOBILE APPLICATIONS - WEB"
+            android:gravity="center"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="(855) 922-9700"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="WWW.I-SOFT.US"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:gravity="center"></TextView>
+    </LinearLayout>
+</RelativeLayout>

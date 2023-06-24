@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "342462970845",
+    "project_id": "i-soft-auto-receptionist",
+    "storage_bucket": "i-soft-auto-receptionist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342462970845:android:1e6287df40b3195278d434",
+        "android_client_info": {
+          "package_name": "com.isoft.trucksoft_autoreceptionist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342462970845-nic0akbd15ipnstap5ba3lg8c7k5ojid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isoft.trucksoft_autoreceptionist",
+            "certificate_hash": "1905bf36db2fcf3e74c425be7cdd191cf819317b"
+          }
+        },
+        {
+          "client_id": "342462970845-4qi3168ah13su29bdpnjr9jra23ggclk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3afHtt4ym1NB5PJ0UibkFP8b1csOe3N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342462970845-4qi3168ah13su29bdpnjr9jra23ggclk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

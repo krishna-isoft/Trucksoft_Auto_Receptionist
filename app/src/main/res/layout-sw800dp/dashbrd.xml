@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lhead"
+
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/back_dashboard"
+        android:layout_marginRight="@dimen/medium_padding"
+        android:layout_marginTop="@dimen/min_padding"
+        android:layout_gravity="right"
+        />
+
+    <LinearLayout
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="@dimen/min_padding"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="WELCOME TO"></TextView>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_height"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/app_icon_round"
+            android:background="@drawable/my_title_background"
+            android:layout_weight="1"
+            />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/add_driver_checklist_rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:background="#E1000A" >
+
+
+        <TextView
+            android:id="@+id/ttle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:padding="5dp"
+            android:text="Guest Sign IN"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            android:textSize="17sp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/app_version"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lin_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_custom_background"
+        android:layout_margin="40dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tsign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIGN-IN"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:textSize="16sp"
+                android:layout_margin="30dp"
+                android:background="@drawable/abcorner"
+                android:textColor="@color/white"></TextView>
+
+
+
+            <TextView
+                android:id="@+id/tsignout"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="SIGN-OUT"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_margin="30dp"
+                android:background="@drawable/abcorner"
+                android:textColor="@color/white"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="250px"
+                android:layout_height="160px"
+                android:src="@drawable/nlogo"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="SOFTWARE - MOBILE APPLICATIONS - WEB"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="(855) 922-9700"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:gravity="center"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="WWW.I-SOFT.US"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:gravity="center"></TextView>
+        </LinearLayout>
+  </RelativeLayout>
+    </LinearLayout>

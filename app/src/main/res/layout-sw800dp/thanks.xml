@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@mipmap/bg">
+    <ImageView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/back_dashboard"
+            android:layout_marginRight="@dimen/medium_padding"
+            android:layout_marginTop="@dimen/min_padding"
+        android:visibility="gone"
+             android:layout_gravity="right"
+            />
+    
+     <LinearLayout
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:layout_marginTop="@dimen/logo_height"
+         >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_height"
+            android:src="@mipmap/app_icon_round"
+            
+            />
+
+     <TextView
+        android:id="@+id/drive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:padding="@dimen/min_padding"
+        android:singleLine="true"
+        android:text="................"
+        android:textColorHint="#c2c2c2"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+     
+     
+     
+     <Button 
+         android:id="@+id/sign"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center"
+          android:layout_marginTop="@dimen/image_height"
+        android:background="@mipmap/submit_button_base"
+        android:text="Tap Here to Sign In again"
+         />
+        
+    </LinearLayout>
+
+     
+     
+     
+    </LinearLayout>

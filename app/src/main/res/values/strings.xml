@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">i-Soft Auto Receptionist v12.2</string>
+    <string name="app_version">v12.2  </string>
+    <string name="galary_font">&#xf148;</string>
+    <string name="camera_font">&#xf3f6;</string>
+    <string name="edit_font">&#xf2bf;</string>
+    <string name="star">*</string>
+</resources>
